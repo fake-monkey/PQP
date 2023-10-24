@@ -38,6 +38,9 @@
 
 \**************************************************************************/
 
+#ifndef PQP_INTERNAL_H
+#define PQP_INTERNAL_H
+
 #include "Tri.h"
 #include "BV.h"
 
@@ -199,5 +202,7 @@ struct PQP_ToleranceResult
 
   int CloserThanTolerance() { return closer_than_tolerance; }
 };
+
+#endif
 
 #endif
