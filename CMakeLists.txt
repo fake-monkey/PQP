@@ -16,6 +16,7 @@ set(
 	src/PQP_Compile.h
 	src/PQP_Internal.h
 	src/Tri.h
+	src/MatVec.h
 )
 
 set(
